@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">1DolarEuro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="euros">Euros (€)</string>
+    <string name="dolares">Dolares ($)</string>
+    <string name="inserteEuros">Inserte los euros</string>
+    <string name="inserteDolares">Inserte los dólares</string>
+    <string name="bolivares">Tasa $/Bs</string>
+    <string name="inserteBolivares">Inserte el precio del dólar</string>
+    
+    <string name="calcular">Calcular</string>
+    
+
+</resources>

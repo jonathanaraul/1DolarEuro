@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tvEuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/euros"
+        android:layout_centerHorizontal="true"
+         />
+
+    <EditText
+        android:id="@+id/etEuros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inserteEuros"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:layout_below="@+id/tvEuros"
+        />
+
+    <TextView
+        android:id="@+id/tvDolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dolares"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etEuros"
+        />
+
+    <EditText
+        android:id="@+id/etDolares"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDolares"
+        android:hint="@string/inserteDolares"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+    
+    <TextView
+        android:id="@+id/tvBolivares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bolivares"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etDolares"
+        />
+
+    <EditText
+        android:id="@+id/etBolivares"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBolivares"
+        android:hint="@string/inserteBolivares"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+    
+    <Button 
+        android:id="@+id/btCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:layout_below="@+id/etBolivares"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView 
+        android:id="@+id/etResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btCalcular"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        />
+
+</RelativeLayout>
